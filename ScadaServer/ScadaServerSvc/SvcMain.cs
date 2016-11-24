@@ -12,7 +12,7 @@ namespace Scada.Server.Svc
 {
     public partial class SvcMain : ServiceBase
     {
-        private Manager manager;    //manager,managing the Application
+        private Manager manager;     //manager,managing the Application
         public SvcMain()
         {
             InitializeComponent();
